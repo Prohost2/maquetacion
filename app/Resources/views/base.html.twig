@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+        <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+        <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    </head>
+    <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">LOGO</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">NEW IN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/shop/category">CATTEGORY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BOUTIQUE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/shop/sale">SALE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FAX</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+        <button class="btn btn-raised btn-pink"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48"><path d="M24 34c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm12-18h-2v-4c0-5.52-4.48-10-10-10S14 6.48 14 12h3.8c0-3.42 2.78-6.2 6.2-6.2 3.42 0 6.2 2.78 6.2 6.2v4H12c-2.21 0-4 1.79-4 4v20c0 2.21 1.79 4 4 4h24c2.21 0 4-1.79 4-4V20c0-2.21-1.79-4-4-4zm0 24H12V20h24v20z"/></svg> LOGIN</button>
+    </form>
+  </div>
+</nav>
+        {% block body %}{% endblock %}
+        <script src="{{asset('js/Jquery.js')}}"></script>
+        <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" ></script>
+        <script src="{{asset('js/bootstrap.js')}}"></script>
+            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+          <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>    
+        <script src="{{asset('js/function.js')}}"></script>
+        {% block javascripts %}
+            <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+        {% endblock %}
+<p style="background-color: #ccc; padding: 2px"></p>
+<footer>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">NEW IN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/category">CATEGORY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BOUTIQUE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTANCT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/shop/sale">SALE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FAX</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img src="" alt="face"><img src="" alt="twitter"><img src="" alt="instagram"></a>
+      </li>
+    </ul>
+</footer>
+    </body>
+</html>

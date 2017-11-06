@@ -1,0 +1,23 @@
+shop_homepage:
+    path:     /
+    defaults: { _controller: ShopBundle:Default:index }
+
+shop_category:
+    path:     /category
+    defaults: { _controller: ShopBundle:Default:category }
+
+shop_sale:
+    path:     /sale
+    defaults: { _controller: ShopBundle:Default:sale }
+
+shop_single:
+    path:     /product
+    defaults: { _controller: ShopBundle:Product:index }
+
+shop_check:
+    path:     /checkout
+    defaults: { _controller: ShopBundle:Product:check }
+
+shop_info:
+    path:     /info
+    defaults: { _controller: ShopBundle:Product:info }

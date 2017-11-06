@@ -1,0 +1,133 @@
+body{
+	background-color: #fff;
+}
+a{
+	color: #ff6ea2;
+}
+#campo{
+	outline: 2px solid #ff6ea2;
+}
+#nav-principal{
+	padding: 20px 0px;
+}
+#discount{
+	background-image: url(../img/thalia-back.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 50vh;
+	margin-bottom: 50px;
+	background-color: red;
+	padding: 150px;
+	color: white;
+}
+#discount-2{
+	background-image: url(../img/natalie-back.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 50vh;
+	margin-bottom: 50px;
+	background-color: red;
+	padding: 150px;
+	color: white;
+}
+#discount-2 button{
+	border:1px solid white;
+	color: white;
+}
+.btn .btn-raised .btn-succes{
+	background-color: #2fdb05;
+}
+.btn-raised .like{
+	background-color: #4c86fc;
+}
+.btn-raised .twit{
+	background-color: #74cdfc;
+}
+.mn-pr{
+	padding: 10px;
+}
+.navbar-brand{
+	width: 50%;
+}
+.sale{
+	text-decoration: line-through;
+}
+.text-great,.require{
+	color: #ff6ea2;
+}
+.btn-pink{
+	background: #ff6ea2;
+background: -moz-linear-gradient(top, #ff6ea2 0%, #ef017c 100%);
+background: -webkit-linear-gradient(top, #ff6ea2 0%,#ef017c 100%);
+background: linear-gradient(to bottom, #ff6ea2 0%,#ef017c 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6ea2', endColorstr='#ef017c',GradientType=0 );
+color: white;
+}
+.form-control, .custom-file-control, .is-focused .form-control, .is-focused .custom-file-control{
+	background-image: linear-gradient(to top, #ff6ea2 2px, rgba(0, 150, 136, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.26) 1px, transparent 1px);
+}
+.thead-pink{
+background: -moz-linear-gradient(top, rgba(255,93,177,1) 0%, rgba(255,93,177,0.96) 20%, rgba(255,110,175,0.81) 93%, rgba(255,255,255,1) 100%);
+background: -webkit-linear-gradient(top, rgba(255,93,177,1) 0%,rgba(255,93,177,0.96) 20%,rgba(255,110,175,0.81) 93%,rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(255,93,177,1) 0%,rgba(255,93,177,0.96) 20%,rgba(255,110,175,0.81) 93%,rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#ffffff',GradientType=0 );
+}
+.carousel-item{
+	max-height: 100vh;
+}
+#earrings{
+	background-image: url(../img/EARRINGS.jpg);
+	background-size: cover;
+	padding-top: 60px;
+	color: white
+}
+#necklates{
+	background-image: url(../img/necklaces.jpg);
+	background-size: cover;
+	padding-top: 60px;
+	color: white
+}
+#bracelets{
+	background-image: url(../img/bracelets.jpg);
+	background-size: cover;
+	padding-top: 60px;
+	color: white
+}
+
+#bracelets button{
+	color: white;
+	background-color: #ef0675;
+	border:1px solid #ef0675;
+}
+#necklates button{
+	color: white;
+		background-color: #ff00a2;
+	border:1px solid #ff00a2;
+	}
+#earrings button{
+	color: white;
+	background-color: #ff6ae2;
+	border:1px solid #ff6ae2;
+}
+#follow{
+	background-image: url(../img/background-bi.jpg);
+	background-size: cover;
+	margin-bottom: 50px;
+}
+#follow h2{
+	color: white;
+}
+#new{
+	background-image: url(../img/follow-bottom.jpg);
+	background-size: cover;
+	letter-spacing: 8pt;
+	font-size: 18px;
+}
+#accordion h3{
+	border-bottom: 1px solid #ccc;
+}
+.btn-fucks,
+.btn-active{
+	background-color: #ff6ea2;
+	border:1px solid #ff6ea2;
+}

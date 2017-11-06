@@ -1,0 +1,155 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+<br>
+<br>
+<br>
+<section class="container">
+	<div class="row">
+		<div class="col-1">
+			<div class="row">
+				<div class="card col-12" style="width: 20rem; margin-bottom:10px; padding:5px;">
+				  <img class="card-img-top" src="{{asset('img/collar_2.png')}}" alt="Card image cap">
+				</div>
+				<div class="card col-12" style="width: 20rem; margin-bottom:10px; padding:5px;">
+				  <img class="card-img-top" src="{{asset('img/collar_2.png')}}" alt="Card image cap">
+				</div>
+				<div class="card col-12" style="width: 20rem; margin-bottom:10px; padding:5px;">
+				  <img class="card-img-top" src="{{asset('img/collar_2.png')}}" alt="Card image cap">
+				</div>
+
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="card col-12" style="width: 20rem; margin-bottom:10px; padding:5px;">
+				<img class="img-fluid rounded mx-auto d-block card-img-top" src="{{asset('img/collar_2.png')}}" alt="image-example">
+			</div>
+		</div>
+		<div class="col-7">
+			<div class="row">
+				<div class="col-12">
+					<h4>Title product</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloribus ipsa sunt quae, laborum laboriosam saepe autem, iusto aspernatur, nobis blanditiis quibusdam necessitatibus quis. Assumenda molestiae illum provident reiciendis, reprehenderit.</p>
+					<small>Old price: $ 319</small>
+					<p>PRICE: $ 239,25</p>
+					<a href="/shop/checkout"><button type="button" class="btn btn-raised btn-pink">ADD TO CAR</button></a>
+					<div class="row">
+						<div class="col-2"><button class="btn btn-raised like" style="background-color:#4c86fc; color:white;">like</button></div>
+						<div class="col-2"><button class="btn btn-raised twit" style="background-color:#00cfff; color:white;">twiter</button></div>
+					</div>
+					<div id="accordion">
+					  <h3>DETAILS </h3>
+					  <div>
+					    <p>
+					    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+					    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+					    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+					    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+					    </p>
+					  </div>
+					  <h3>PAYMENT METHOD</h3>
+					  <div>
+					    <p>
+					    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+					    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+					    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+					    suscipit faucibus urna.
+					    </p>
+					  </div>
+					  <h3>SHIPPING AND RETURNS</h3>
+					  <div>
+					    <p>
+					    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+					    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+					    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+					    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+					    </p>
+					    <ul>
+					      <li>List item one</li>
+					      <li>List item two</li>
+					      <li>List item three</li>
+					    </ul>
+					  </div>
+					  <h3>CLEANING</h3>
+					  <div>
+					    <p>
+					    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+					    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+					    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+					    mauris vel est.
+					    </p>
+					    <p>
+					    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+					    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+					    inceptos himenaeos.
+					    </p>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</section>
+<p style="background-color: #ff6ea2; padding: 10px 0px;"></p>
+<section class="container">
+	<div class="row">
+		<div class="col-12">
+			<h3 class="text-center">YOU MAY ALSO LIKE</h3>
+		</div>
+	</div>
+	<div class="row">
+			<div class="col-md-3" style="margin-bottom: 20px" >
+				<p class="text-center">Title products</p>
+			<div class="card">
+			  <img class="card-img-top" src="{{asset('img/collar_2.png')}}" alt="Card image cap">
+			  <div class="card-body">
+			    <h6 class="card-text text-center">18 PINK GOLD</h6>
+			    <h6 class="price text-center"><p class="text-great">Old Price <span class="sale" style="">$319</span></p> <span class="text-great">Price</span> $239,25</h6>	
+			  </div>
+			</div>
+		</div>
+				<div class="col-md-3" style="margin-bottom: 20px" >
+					<p class="text-center">Title products</p>
+			<div class="card">
+			  <img class="card-img-top" src="{{asset('img/collar_2.png')}}" alt="Card image cap">
+			  <div class="card-body">
+			    <h6 class="card-text text-center">18 PINK GOLD</h6>
+			    <h6 class="price text-center"><p class="text-great">Old Price <span class="sale" style="">$319</span></p> <span class="text-great">Price</span> $239,25</h6>	
+			  </div>
+			</div>
+		</div>
+				<div class="col-md-3" style="margin-bottom: 20px" >
+					<p class="text-center">Title products</p>
+			<div class="card">
+			  <img class="card-img-top" src="{{asset('img/collar_2.png')}}" alt="Card image cap">
+			  <div class="card-body">
+			    <h6 class="card-text text-center">18 PINK GOLD</h6>
+			    <h6 class="price text-center"><p class="text-great">Old Price <span class="sale" style="">$319</span></p> <span class="text-great">Price</span> $239,25</h6>	
+			  </div>
+			</div>
+		</div>
+				<div class="col-md-3" style="margin-bottom: 20px" >
+					<p class="text-center">Title products</p>
+			<div class="card">
+			  <img class="card-img-top" src="{{asset('img/collar_2.png')}}" alt="Card image cap">
+			  <div class="card-body">
+			    <h6 class="card-text text-center">18 PINK GOLD</h6>
+			    <h6 class="price text-center"><p class="text-great">Old Price <span class="sale" style="">$319</span></p> <span class="text-great">Price</span> $239,25</h6>	
+			  </div>
+			</div>
+		</div>
+	</div>
+</section>
+	<p style="background-color: #ff6ea2; padding: 2px"></p>
+<section class="container">
+	<div class="row justify-content-center">
+		<button class="btn btn-outline-danger btn-lg" style="margin: 20px 0px">RECENTLY VIEW ITEMS</button>
+	</div>
+	<div class="row text-center">
+		<div class="col-md-4"><img src="{{asset('img/collar_2.png')}}" class="img-fluid" alt="image-example" ></div>
+		<div class="col-md-4"><img src="{{asset('img/collar_2.png')}}" class="img-fluid" alt="image-example" ></div>
+		<div class="col-md-4"><img src="{{asset('img/collar_2.png')}}" class="img-fluid" alt="image-example" ></div>
+	</div>
+	<br><br>
+</section>
+{% endblock %}
