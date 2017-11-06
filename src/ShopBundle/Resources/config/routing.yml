@@ -21,3 +21,11 @@ shop_check:
 shop_info:
     path:     /info
     defaults: { _controller: ShopBundle:Product:info }
+
+shop_payments:
+    path:     /payments
+    defaults: { _controller: ShopBundle:Product:Payments }
+
+shop_confirm_payments:
+    path:     /confirm_payments
+    defaults: { _controller: ShopBundle:Product:confirm_payments }

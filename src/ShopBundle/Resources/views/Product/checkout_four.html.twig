@@ -1,0 +1,123 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+<br>
+<br>
+<br>
+<br>
+<section id="shopping">
+	<div class="container-fluid">
+		<!--<div class="row">
+			<div class="col-1" style="background-color: #ff6ea2">
+				<p style="padding-top: 20px 0px 0px 0px">Checkout</p>
+			</div>
+			<div class="col-1">
+				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid #ff6ea2; margin-left: -15px"></div>
+			</div>
+			<div class="col-1">
+				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid transparent; margin-left: 15px"></div>
+			</div>			
+			<div class="col-1" style="background-color: #ff6ea2; margin-left: -175px">
+				<p style="padding-top: 20px 0px 0px 0px">Shopping</p>
+			</div>
+			<div class="col-1">
+				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid #ff6ea2; margin-left: -15px"></div>
+			</div>
+			<div class="col-1" style="background-color: #ff6ea2; margin-left: -75px">
+				<p style="padding-top: 20px 0px 0px 0px">Payment</p>
+			</div>
+			<div class="col-1">
+				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid #ff6ea2; margin-left: -15px"></div>
+			</div>
+			<div class="col-5" style="background-color: #ccc; width: 120%">
+								
+			</div>
+		</div>
+	-->
+		<div class="row">
+			<div class="col-md-12">
+				<button type="button" class="btn btn-raised btn-pink">1</button><span><b> Shipping Information</b></span>
+			</div>
+		</div>
+<p style="background-color: #ccc; padding: 1px"></p>
+		<div class="row">
+		<div class="col-4">
+			<p>Name : <span class="text-great">info</span></p>
+			<p>Last Name : <span class="text-great">info</span> <span class="require">*</span></p>
+			<p>Country : <span class="text-great">info</span> <span class="require">*</span></p>
+			<p>State : <span class="text-great">info</span></p>
+			<p>Telephone : <span class="text-great">info</span></p>
+			<p>Email Address : <span class="text-great">info</span> <span class="require">*</span></p>
+		</div>
+		<div class="col-4">
+			<p>Address 1 : <span class="text-great">info</span><span class="require">*</span></p>
+			<p>Address 2 : <span class="text-great">info</span><span class="require">*</span></p>
+			<p>Suite # : <span class="text-great">info</span><span class="require">*</span></p>
+			<p>City : <span class="text-great">info</span><span class="require">*</span></p>
+			<p>Zip Code : <span class="text-great">info</span><span class="require">*</span></p>
+			<p>Fax : <span class="text-great">info</span><span class="require">*</span></p>		
+		</div>
+	</div>
+</section>
+<section class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<button type="button" class="btn btn-raised btn-pink">2</button><span><b> Billing Information</b></span>
+			</div>
+		</div>
+<p style="background-color: #ccc; padding: 1px"></p>
+	<div class="row">
+		<div class="col-12">
+			<form action="#" class="col-12">
+			  <div class="row">
+	  			<div class="col-4">
+					<p for="">Name  : info</p>
+					<p for="">Last Name  : info</p>
+					<p for="">Country  : info</p>
+					<p for="">State</p>
+					<p for="">Telephone</p>
+					<p for="">Email Address  : info</p>
+				</div>
+				<div class="col-4">
+					<p for="">Address 1 : info</p>	
+					<p for="">Address 2 : info</p>
+					<p for="">Suite # : info</p>
+					<p for="">City : info</p>
+					<p for="">Zip Code : info</p>
+					<p for="">Fax : info</p>
+					<p for="">Enter Discount Code : info</p>			
+				</div>
+			  </div>	
+			</form>		
+		</div>
+	</div>
+			<div class="row">
+			<div class="col-8" style="float: right;">
+				<button type="submit" class="btn btn-raised">Go Back</button>
+			</div>
+		</div>	
+		</form>		
+</section>
+<section class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<button type="button" class="btn btn-raised btn-pink">3</button><span><b> Payment Information</b></span>
+			</div>
+		</div>
+				<p style="border-bottom: 1px solid black"></p>
+			<div class="row">
+				<div class="col-4">
+					<p>Credit Card Type: Card</p>
+					<p >Credit Card Number: ****-****-**99</p>
+				</div>
+				<div class="col-4">
+					<p >Name on Credit Card: JUAN</p>
+					<p >Cw2: ***</p>
+					<p >Expiration Date: ***-***</p>					
+				</div>
+			</div>
+			<button class="btn btn-raised">Go back</button>
+			<br>
+						<button class="btn btn-raised btn-pink" style="float: right;">Place Your Order</button>
+
+</section>
+{% endblock %}

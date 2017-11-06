@@ -1,0 +1,226 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+<br>
+<br>
+<br>
+<section id="shopping">
+	<div class="container-fluid">
+		<!--<div class="row">
+			<div class="col-1" style="background-color: #ff6ea2">
+				<p style="padding-top: 20px 0px 0px 0px">Checkout</p>
+			</div>
+			<div class="col-1">
+				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid #ff6ea2; margin-left: -15px"></div>
+			</div>
+			<div class="col-1">
+				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid transparent; margin-left: 15px"></div>
+			</div>			
+			<div class="col-1" style="background-color: #ff6ea2; margin-left: -175px">
+				<p style="padding-top: 20px 0px 0px 0px">Shopping</p>
+			</div>
+			<div class="col-1">
+				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid #ff6ea2; margin-left: -15px"></div>
+			</div>
+			<div class="col-1" style="background-color: #ff6ea2; margin-left: -75px">
+				<p style="padding-top: 20px 0px 0px 0px">Payment</p>
+			</div>
+			<div class="col-1">
+				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid #ff6ea2; margin-left: -15px"></div>
+			</div>
+			<div class="col-5" style="background-color: #ccc; width: 120%">
+								
+			</div>
+		</div>
+	-->
+		<div class="row">
+			<div class="col-md-12">
+				<button type="button" class="btn btn-raised btn-pink">1</button><span><b> Shopping Cart</b></span>
+			</div>
+		</div>
+<p style="background-color: #ccc; padding: 1px"></p>
+		<div class="row">
+			<div class="col-12">
+				<table class="table">
+				  <thead class="thead-pink">
+				    <tr>
+				      <th>Item</th>
+				      <th>Product Name</th>
+				      <th>Quanty</th>
+				      <th colspan="2">Price</th>
+				      <th></th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <td><img src="" alt="example-image"></td>
+				      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit fugiat, iste, nobis vitae earum, aliquid harum est praesentium libero non consequatur maxime fugit eligendi magni temporibus mollitia neque amet similique.</td>
+				      <td></td>
+				      <td colspan="2"><b>Before discount</b><br>$319.00</td>
+				    </tr>
+				    <tr>
+				    	<td colspan="5" class="text-right">Subtotal</td>
+				    	<td colspan="1">$319.00</td>
+				    	<td></td>
+				    </tr>
+				    <tr>
+				    	<td colspan="5" class="text-right">Total</td>
+				    	<td colspan="1">$319.00</td>
+				    	<td></td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<button type="button" class="btn btn-raised btn-pink">2</button><span><b> Shipping Method</b></span>
+			</div>
+		</div>
+<p style="background-color: #ccc; padding: 1px"></p>
+		<div class="row">
+			<div class="col-md-4">
+				<small>Press button To Update The Cost If a Different <br> Shipping Method is Selected</small><br><br>
+				<div class="row">
+					<div class="col-md-4"><small>Shipping Method</small></div>
+					<div class="col-md-6">
+						<button class="btn btn-raised btn-block">Priority_Mail</button>
+						<button class="btn btn-raised btn-block">Fedex_2_Day</button>
+						<button class="btn btn-raised btn-block">Fedex_Next_Day</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<button type="button" class="btn btn-raised btn-pink">3</button><span><b> Shipping Information</b></span>
+			</div>
+		</div>
+<p style="background-color: #ccc; padding: 1px"></p>
+		<div class="row">
+		<div class="col-4">
+			<p>Name : <span class="text-great">info</span></p>
+			<p>Last Name : <span class="text-great">info</span> <span class="require">*</span></p>
+			<p>Country : <span class="text-great">info</span> <span class="require">*</span></p>
+			<p>State : <span class="text-great">info</span></p>
+			<p>Telephone : <span class="text-great">info</span></p>
+			<p>Email Address : <span class="text-great">info</span> <span class="require">*</span></p>
+		</div>
+		<div class="col-4">
+			<p>Address 1 : <span class="text-great">info</span><span class="require">*</span></p>
+			<p>Address 2 : <span class="text-great">info</span><span class="require">*</span></p>
+			<p>Suite # : <span class="text-great">info</span><span class="require">*</span></p>
+			<p>City : <span class="text-great">info</span><span class="require">*</span></p>
+			<p>Zip Code : <span class="text-great">info</span><span class="require">*</span></p>
+			<p>Fax : <span class="text-great">info</span><span class="require">*</span></p>		
+		</div>
+	</div>
+</section>
+<section class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<button type="button" class="btn btn-raised btn-pink">4</button><span><b> Billing Information</b></span>
+			</div>
+		</div>
+<p style="background-color: #ccc; padding: 1px"></p>
+	<div class="row">
+		<div class="col-12">
+			<form action="#" class="col-12">
+			  <div class="form-check">
+			    <label class="form-check-label">
+			      <input type="checkbox" class="form-check-input">
+			      Check here if the billing information is the same as shippng information
+			    </label>
+			  </div>
+			  <div class="row">
+	  			<div class="col-4">
+					<label for="">Name <span class="require">*</span></label>
+					<input type="text" name="name" class="form-control">
+					<label for="">Last Name <span class="require">*</span></label>
+					<input type="text" name="Last" class="form-control">
+					<label for="">Country <span class="require">*</span></label>
+					<select name="" id="" class="form-control">
+						<option value="">Country</option>
+					</select>
+					<label for="">State</label>
+					<select name="" id="" class="form-control">
+						<option value="">State</option>
+					</select>
+					<label for="">Telephone</label>
+					<input type="text" name="phone" class="form-control">
+					<label for="">Email Address <span class="require">*</span></label>
+					<input type="text" name="email" class="form-control">
+				</div>
+				<div class="col-4">
+					<label for="">Address 1<span class="require">*</span></label>
+					<input type="text" name="email" class="form-control">	
+					<label for="">Address 2<span class="require">*</span></label>
+					<input type="text" name="email" class="form-control">	
+					<label for="">Suite #<span class="require">*</span></label>
+					<input type="text" name="email" class="form-control">	
+					<label for="">City<span class="require">*</span></label>
+					<input type="text" name="email" class="form-control">
+					<label for="">Zip Code<span class="require">*</span></label>
+					<input type="text" name="email" class="form-control">
+					<label for="">Fax<span class="require">*</span></label>
+					<input type="text" name="email" class="form-control">
+					<label for="">Enter Discount Code<span class="require">*</span></label>
+					<input type="text" name="email" class="form-control">				
+				</div>
+			  </div>	
+			</form>		
+		</div>
+	</div>
+			<div class="row">
+			<div class="col-8" style="float: right;">
+				<button type="submit" class="btn btn-raised">Go Back</button>
+			</div>
+		</div>	
+		</form>		
+</section>
+<section class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<button type="button" class="btn btn-raised  btn-pink">5</button><span><b> Payment Information</b></span>
+			</div>
+		</div>
+<p style="background-color: #ccc; padding: 1px"></p>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-6"><img src="#" alt="example-image-credit"></div>
+					<div class="col-md-6"><img src="#" alt="example-image-credit"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-6"><img src="#" alt="example-image-credit"></div>
+					<div class="col-md-6"><img src="#" alt="example-image-credit"></div>					
+				</div>
+			</div>
+		</div>
+		<form action="">
+			<div class="row">
+				<div class="col-4">
+					<select name="" id="" class="form-control">
+						<option value="">Selected Card</option>
+					</select>
+					<br>
+					<label for="#">Name on Credit Card</label>
+					<input type="text" name="name-credit" class="form-control">
+					<label for="#">Expiration Date <span class="require">*</span></label>
+					<select name="" id="" class="form-control">
+						<option value="">Selected Date</option>
+					</select>
+					<select name="" id="" class="form-control">
+						<option value="">Selected Month</option>
+					</select>
+					<br>
+					<label for="#">Credit Card Number <span class="require">*</span></label>
+					<input type="text" name="name-credit" class="form-control">
+					<label for="#">Cw2<span class="require">*</span></label>
+					<input type="text" name="name-credit" class="form-control">
+				</div>
+				<div class="col-4"></div>
+			</div>
+		</form>
+</section>
+
+{% endblock %}
