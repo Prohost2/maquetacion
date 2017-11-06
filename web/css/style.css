@@ -17,7 +17,8 @@ a{
 	min-height: 50vh;
 	margin-bottom: 50px;
 	background-color: red;
-	padding: 150px;
+	padding-top: 150px;
+	padding-bottom: 150px;
 	color: white;
 }
 #discount-2{
@@ -27,8 +28,13 @@ a{
 	min-height: 50vh;
 	margin-bottom: 50px;
 	background-color: red;
-	padding: 150px;
+	padding-top: 150px;
+	padding-bottom: 150px;
 	color: white;
+}
+
+@media screen {
+	
 }
 #discount-2 button{
 	border:1px solid white;
