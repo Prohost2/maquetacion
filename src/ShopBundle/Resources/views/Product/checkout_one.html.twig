@@ -34,20 +34,28 @@
 		</div>
 	-->
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-12 col-md-8">
 				<button type="button" class="btn btn-raised btn-pink">1</button><span><b> Shopping Cart</b></span>
 			</div>
-			<div class="col-md-4">
+			<div class="col-12 col-md-4">
 				<div class="row">
-					<div class="col-6"><button class="btn btn-raised btn-block">+ Shop More</button></div>
-					<div class="col-6"><a href="/shop/info"><button class="btn btn-raised btn-pink">  Continue Checkout</button></a></div>
+					<div class="col-6">
+						<button class="btn btn-raised btn-block hidden-xs-down">+ Shop More</button>
+				      	<button class="hidden-sm-up btn btn-raised">
+				      		<b>+</b><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 48 48"><path d="M14 36c-2.21 0-3.98 1.79-3.98 4s1.77 4 3.98 4 4-1.79 4-4-1.79-4-4-4zM2 4v4h4l7.19 15.17-2.7 4.9c-.31.58-.49 1.23-.49 1.93 0 2.21 1.79 4 4 4h24v-4H14.85c-.28 0-.5-.22-.5-.5 0-.09.02-.17.06-.24L16.2 26h14.9c1.5 0 2.81-.83 3.5-2.06l7.15-12.98c.16-.28.25-.61.25-.96 0-1.11-.9-2-2-2H10.43l-1.9-4H2zm32 32c-2.21 0-3.98 1.79-3.98 4s1.77 4 3.98 4 4-1.79 4-4-1.79-4-4-4z"/></svg>
+				      	</button>						
+					</div>
+					<div class="col-6">
+						<a href="/shop/info"><button class="btn btn-raised btn-pink hidden-xs-down">  Continue Checkout</button></a>
+						<a href="/shop/info"><button class="btn btn-raised btn-pink hidden-sm-up"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 48 48"><path d="M4.02 42L46 24 4.02 6 4 20l30 4-30 4z"/></svg></button></a>
+					</div>
 				</div>
 			</div>
 		</div>
 <p style="background-color: #ccc; padding: 1px"></p>
 		<div class="row">
-			<div class="col-12">
-				<table class="table">
+			<div class="col-12 col-md-12">
+				<table class="table table-sm">
 				  <thead class="thead-default">
 				    <tr>
 				      <th>Action</th>
@@ -60,24 +68,35 @@
 				  </thead>
 				  <tbody>
 				    <tr>
-				      <th><button class="btn btn-raised">Update</button><br><button class="btn btn-raised">Remove</button></th>
+				      <th>
+				      	<button class="btn btn-raised hidden-xs-down">Update</button><br><button class="btn btn-raised hidden-xs-down">Remove</button>
+				      	<button class="hidden-sm-up btn btn-raised">
+				      		<svg  xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 48 48"><path d="M6 34.5V42h7.5l22.13-22.13-7.5-7.5L6 34.5zm35.41-20.41c.78-.78.78-2.05 0-2.83l-4.67-4.67c-.78-.78-2.05-.78-2.83 0l-3.66 3.66 7.5 7.5 3.66-3.66z"/></svg>
+				      	</button><br>
+				      	<button class="btn hidden-sm-up btn-raised">
+				      			<svg  xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 48 48"><path d="M38 12.83L35.17 10 24 21.17 12.83 10 10 12.83 21.17 24 10 35.17 12.83 38 24 26.83 35.17 38 38 35.17 26.83 24z"/></svg>
+				      	</button>
+				      </th>
 				      <td><img src="{{asset('img/collar_2.png')}}" class="img-fluid" alt="example-image"></td>
-				      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit fugiat, iste, nobis vitae earum, aliquid harum est praesentium libero non consequatur maxime fugit eligendi magni temporibus mollitia neque amet similique.</td>
+				      <td>Lorem ipsum dolor sit amet, </td>
 				      <td><input type="number" name="quanty" style="width: 50px"></td>
 				      <td colspan="2"><b>Before discount</b><br>$319.00</td>
 				    </tr>
 				    <tr>
-				    	<td colspan="6" class="text-right">Subtotal</td>
-				    	<td colspan="2">$319.00</td>
+				    	<td colspan="4" class="text-right">Subtotal</td>
+				    	<td colspan="">$319.00</td>
 				    	<td></td>
 				    </tr>
 				    <tr>
-				    	<td colspan="6" class="text-right">Total</td>
-				    	<td colspan="2">$319.00</td>
+				    	<td colspan="4" class="text-right">Total</td>
+				    	<td colspan="">$319.00</td>
 				    	<td></td>
 				    </tr>
 				    <tr>
-				    	<td colspan="7"><a href="/shop/info"  style="float: right;"><button class="btn btn-raised btn-pink">Continue Checkout</button></a></td>
+				    	<td colspan="4">
+				    		<a href="/shop/info"><button class="btn btn-raised btn-pink hidden-xs-down">  Continue Checkout</button></a>
+							<a href="/shop/info"><button class="btn btn-raised btn-pink hidden-sm-up"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 48 48"><path d="M4.02 42L46 24 4.02 6 4 20l30 4-30 4z"/></svg></button></a>
+				    	</td>
 				    </tr>
 				  </tbody>
 				</table>

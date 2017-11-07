@@ -5,33 +5,6 @@
 <br>
 <section id="shopping">
 	<div class="container-fluid">
-		<!--<div class="row">
-			<div class="col-1" style="background-color: #ff6ea2">
-				<p style="padding-top: 20px 0px 0px 0px">Checkout</p>
-			</div>
-			<div class="col-1">
-				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid #ff6ea2; margin-left: -15px"></div>
-			</div>
-			<div class="col-1">
-				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid transparent; margin-left: 15px"></div>
-			</div>			
-			<div class="col-1" style="background-color: #ff6ea2; margin-left: -175px">
-				<p style="padding-top: 20px 0px 0px 0px">Shopping</p>
-			</div>
-			<div class="col-1">
-				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid #ff6ea2; margin-left: -15px"></div>
-			</div>
-			<div class="col-1" style="background-color: #ff6ea2; margin-left: -75px">
-				<p style="padding-top: 20px 0px 0px 0px">Payment</p>
-			</div>
-			<div class="col-1">
-				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid #ff6ea2; margin-left: -15px"></div>
-			</div>
-			<div class="col-5" style="background-color: #ccc; width: 120%">
-								
-			</div>
-		</div>
-	-->
 		<div class="row">
 			<div class="col-md-12">
 				<button type="button" class="btn btn-raised btn-pink">1</button><span><b> Shopping Cart</b></span>
@@ -39,8 +12,8 @@
 		</div>
 <p style="background-color: #ccc; padding: 1px"></p>
 		<div class="row">
-			<div class="col-12">
-				<table class="table">
+			<div class="col-12 col-md-12">
+				<table class="table table-sm">
 				  <thead class="thead-pink">
 				    <tr>
 				      <th>Item</th>
@@ -52,19 +25,19 @@
 				  </thead>
 				  <tbody>
 				    <tr>
-				      <td><img src="" alt="example-image"></td>
-				      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit fugiat, iste, nobis vitae earum, aliquid harum est praesentium libero non consequatur maxime fugit eligendi magni temporibus mollitia neque amet similique.</td>
-				      <td></td>
+				      <td><img src="{{asset('img/collar_2.png')}}" class="img-fluid" alt="example-image"></td>
+				      <td>Lorem ipsum dolor sit amet, </td>
+				      <td><input type="number" name="quanty" style="width: 50px"></td>
 				      <td colspan="2"><b>Before discount</b><br>$319.00</td>
 				    </tr>
 				    <tr>
-				    	<td colspan="5" class="text-right">Subtotal</td>
-				    	<td colspan="1">$319.00</td>
+				    	<td colspan="4" class="text-right">Subtotal</td>
+				    	<td colspan="">$319.00</td>
 				    	<td></td>
 				    </tr>
 				    <tr>
-				    	<td colspan="5" class="text-right">Total</td>
-				    	<td colspan="1">$319.00</td>
+				    	<td colspan="4" class="text-right">Total</td>
+				    	<td colspan="">$319.00</td>
 				    	<td></td>
 				    </tr>
 				  </tbody>
@@ -114,6 +87,7 @@
 			<p>Fax : <span class="text-great">info</span><span class="require">*</span></p>		
 		</div>
 	</div>
+</div>
 </section>
 <section class="container-fluid">
 		<div class="row">
@@ -132,7 +106,7 @@
 			    </label>
 			  </div>
 			  <div class="row">
-	  			<div class="col-4">
+	  			<div class="col-12 col-md-4">
 					<label for="">Name <span class="require">*</span></label>
 					<input type="text" name="name" class="form-control">
 					<label for="">Last Name <span class="require">*</span></label>
@@ -150,7 +124,7 @@
 					<label for="">Email Address <span class="require">*</span></label>
 					<input type="text" name="email" class="form-control">
 				</div>
-				<div class="col-4">
+				<div class="col-12 col-md-4">
 					<label for="">Address 1<span class="require">*</span></label>
 					<input type="text" name="email" class="form-control">	
 					<label for="">Address 2<span class="require">*</span></label>
@@ -198,7 +172,7 @@
 		</div>
 		<form action="">
 			<div class="row">
-				<div class="col-4">
+				<div class="col-12 col-md-4">
 					<select name="" id="" class="form-control">
 						<option value="">Selected Card</option>
 					</select>
