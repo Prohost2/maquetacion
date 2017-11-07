@@ -18,8 +18,8 @@
 				      	</button>						
 					</div>
 					<div class="col-6">
-						<a href="/shop/info"><button class="btn btn-raised btn-pink hidden-xs-down">  Continue Checkout</button></a>
-						<a href="/shop/info"><button class="btn btn-raised btn-pink hidden-sm-up"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 48 48"><path d="M4.02 42L46 24 4.02 6 4 20l30 4-30 4z"/></svg></button></a>
+						<a href="{{path("shop_payments")}}"><button class="btn btn-raised btn-pink hidden-xs-down">  Continue Checkout</button></a>
+						<a href="{{path("shop_payments")}}"><button class="btn btn-raised btn-pink hidden-sm-up"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 48 48"><path d="M4.02 42L46 24 4.02 6 4 20l30 4-30 4z"/></svg></button></a>
 					</div>
 				</div>
 			</div>
@@ -66,7 +66,7 @@
 				    </tr>
 				    <tr>
 				    	<td colspan="4">
-				    		<a href="/shop/info"><button class="btn btn-raised btn-pink hidden-xs-down">  Continue Checkout</button></a>
+				    		<a href="{{path("shop_payments")}}"><button class="btn btn-raised btn-pink hidden-xs-down">  Continue Checkout</button></a>
 							<a href="/shop/info"><button class="btn btn-raised btn-pink hidden-sm-up"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 48 48"><path d="M4.02 42L46 24 4.02 6 4 20l30 4-30 4z"/></svg></button></a>
 				    	</td>
 				    </tr>
@@ -113,7 +113,7 @@
 		</div>
 	<div class="row">
 		<div class="col-12 col-md-4">
-			<form action="#">
+			<form action="{{path("shop_payments")}}" name="" method="">
 			<label for="">Name <span class="require">*</span></label>
 			<input type="text" name="name" class="form-control input-pink">
 			<label for="">Last Name <span class="require">*</span></label>
