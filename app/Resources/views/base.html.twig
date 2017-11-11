@@ -21,13 +21,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/shop">HOME <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{path("shop_homepage")}}">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">NEW IN</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/shop/category">CATTEGORY</a>
+        <a class="nav-link" href="{{path("shop_category")}}">CATTEGORY</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">BOUTIQUE</a>
@@ -36,7 +36,7 @@
         <a class="nav-link" href="#">CONTACT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/shop/sale">SALE</a>
+        <a class="nav-link" href="{{path('shop_sale')}}">SALE</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">FAX</a>
@@ -62,13 +62,13 @@
 <footer>
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a class="nav-link active" href="/shop">HOME</a>
+        <a class="nav-link active" href="{{path("shop_homepage")}}">HOME</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">NEW IN</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/shop/category">CATEGORY</a>
+        <a class="nav-link" href="{{path("shop_category")}}">CATEGORY</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">BOUTIQUE</a>
@@ -77,13 +77,16 @@
         <a class="nav-link" href="#">CONTANCT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/shop/sale">SALE</a>
+        <a class="nav-link" href="{{path('shop_sale')}}">SALE</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">FAX</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><img src="" alt="face"><img src="" alt="twitter"><img src="" alt="instagram"></a>
+        <a class="nav-link" href="#">
+          <img src="{{asset('img/facebook.png')}}" class="img-fluid" style="width:35px" alt="face">
+          <img src="{{asset('img/instagram.png')}}" class="img-fluid" style="width:35px" alt="twitter">
+          <img src="{{asset('img/Twitter-Icon2.png')}}" class="img-fluid" style="width:35px" alt="instagram"></a>
       </li>
       <li class="nav-item">
         <a href="#" class="nav-link">
