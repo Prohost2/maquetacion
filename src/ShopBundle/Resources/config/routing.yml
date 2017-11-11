@@ -29,3 +29,7 @@ shop_payments:
 shop_confirm_payments:
     path:     /confirm_payments
     defaults: { _controller: ShopBundle:Product:confirm_payments }
+
+shop_searchAdvance:
+    path:     /searchAdvance
+    defaults: { _controller: ShopBundle:Default:searchAdvance }

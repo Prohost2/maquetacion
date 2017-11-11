@@ -18,4 +18,8 @@ class DefaultController extends Controller
     {
         return $this->render('ShopBundle:Default:sale.html.twig');
     }
+    public function searchAdvanceAction()
+    {
+        return $this->render('ShopBundle:Default:search_advance.html.twig');
+    }
 }
