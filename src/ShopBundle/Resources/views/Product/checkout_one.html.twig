@@ -6,33 +6,6 @@
 	<br>
 <section id="shopping">
 	<div class="container-fluid">
-		<!--<div class="row">
-			<div class="col-1" style="background-color: #ff6ea2">
-				<p style="padding-top: 20px 0px 0px 0px">Checkout</p>
-			</div>
-			<div class="col-1">
-				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid #ff6ea2; margin-left: -15px"></div>
-			</div>
-			<div class="col-1">
-				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid transparent; margin-left: 15px"></div>
-			</div>			
-			<div class="col-1" style="background-color: #ff6ea2; margin-left: -175px">
-				<p style="padding-top: 20px 0px 0px 0px">Shopping</p>
-			</div>
-			<div class="col-1">
-				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid #ff6ea2; margin-left: -15px"></div>
-			</div>
-			<div class="col-1" style="background-color: #ff6ea2; margin-left: -75px">
-				<p style="padding-top: 20px 0px 0px 0px">Payment</p>
-			</div>
-			<div class="col-1">
-				<div  style="width:0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid #ff6ea2; margin-left: -15px"></div>
-			</div>
-			<div class="col-5" style="background-color: #ccc; width: 120%">
-								
-			</div>
-		</div>
-	-->
 		<div class="row">
 			<div class="col-6 col-md-8">
 				<button type="button" class="btn btn-raised btn-pink">1</button><span><b> Shopping Cart</b></span>
@@ -46,8 +19,8 @@
 				      	</button>						
 					</div>
 					<div class="col-6">
-						<a href="/shop/info"><button class="btn btn-raised btn-pink hidden-xs-down">  Continue Checkout</button></a>
-						<a href="/shop/info"><button class="btn btn-raised btn-pink hidden-sm-up"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 48 48"><path d="M4.02 42L46 24 4.02 6 4 20l30 4-30 4z"/></svg></button></a>
+						<a href="{{path('shop_info')}}"><button class="btn btn-raised btn-pink hidden-xs-down">  Continue Checkout</button></a>
+						<a href="{{path('shop_info')}}"><button class="btn btn-raised btn-pink hidden-sm-up"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 48 48"><path d="M4.02 42L46 24 4.02 6 4 20l30 4-30 4z"/></svg></button></a>
 					</div>
 				</div>
 			</div>
@@ -94,8 +67,8 @@
 				    </tr>
 				    <tr>
 				    	<td colspan="4">
-				    		<a href="/shop/info"><button class="btn btn-raised btn-pink hidden-xs-down">  Continue Checkout</button></a>
-							<a href="/shop/info"><button class="btn btn-raised btn-pink hidden-sm-up"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 48 48"><path d="M4.02 42L46 24 4.02 6 4 20l30 4-30 4z"/></svg></button></a>
+				    		<a href="{{path('shop_info')}}"><button class="btn btn-raised btn-pink hidden-xs-down">  Continue Checkout</button></a>
+							<a href="{{path('shop_info')}}"><button class="btn btn-raised btn-pink hidden-sm-up"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 48 48"><path d="M4.02 42L46 24 4.02 6 4 20l30 4-30 4z"/></svg></button></a>
 				    	</td>
 				    </tr>
 				  </tbody>
