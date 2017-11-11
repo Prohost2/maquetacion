@@ -106,39 +106,39 @@
 			    </label>
 			  </div>
 			  <div class="row">
-	  			<div class="col-12 col-md-4">
+				<div class="col-12 col-md-4">
+					<form action="" name="" method="">
 					<label for="">Name <span class="require">*</span></label>
-					<input type="text" name="name" class="form-control">
-					<label for="">Last Name <span class="require">*</span></label>
-					<input type="text" name="Last" class="form-control">
-					<label for="">Country <span class="require">*</span></label>
-					<select name="" id="" class="form-control">
+					<input type="text" name="name" class="form-control input-pink">
+					<label for="">Addres <span class="require">*</span></label>
+					<input type="text" name="Last" class="form-control input-pink">
+					<label for="">Apt/Ste <span class="require">*</span></label>
+					<select name="" id="" class="form-control input-pink">
 						<option value="">Country</option>
 					</select>
-					<label for="">State</label>
-					<select name="" id="" class="form-control">
-						<option value="">State</option>
+					<label for="">State / Province</label>
+					<select name="" id="" class="form-control input-pink">
+						<option value="">State / Province</option>
 					</select>
-					<label for="">Telephone</label>
-					<input type="text" name="phone" class="form-control">
-					<label for="">Email Address <span class="require">*</span></label>
-					<input type="text" name="email" class="form-control">
+					<label for="">Country</label>
+					<select name="" id="" class="form-control input-pink">
+						<option value="">Country</option>
+					</select>
+					<label for="">Email <span class="require">*</span></label>
+					<input type="email" name="" class="form-control input-pink">
 				</div>
 				<div class="col-12 col-md-4">
-					<label for="">Address 1<span class="require">*</span></label>
-					<input type="text" name="email" class="form-control">	
-					<label for="">Address 2<span class="require">*</span></label>
-					<input type="text" name="email" class="form-control">	
-					<label for="">Suite #<span class="require">*</span></label>
-					<input type="text" name="email" class="form-control">	
+					<label for="">Last Name<span class="require">*</span></label>
+					<input type="text" name="" class="form-control">	
+					<input type="text" name="" class="form-control"><br>	
 					<label for="">City<span class="require">*</span></label>
-					<input type="text" name="email" class="form-control">
+					<input type="text" name="" class="form-control">
 					<label for="">Zip Code<span class="require">*</span></label>
-					<input type="text" name="email" class="form-control">
-					<label for="">Fax<span class="require">*</span></label>
-					<input type="text" name="email" class="form-control">
-					<label for="">Enter Discount Code<span class="require">*</span></label>
-					<input type="text" name="email" class="form-control">				
+					<input type="text" name="" class="form-control">
+					<label for="">Phone Number<span class="require">*</span></label>
+					<input type="text" name="" class="form-control">
+					<label for="">Discount Code<span class="require">*</span></label>
+					<input type="text" name="" class="form-control">										
 				</div>
 			  </div>	
 			</form>		
@@ -161,12 +161,18 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="row">
-					<div class="col-md-6"><img src="#" alt="example-image-credit"></div>
-					<div class="col-md-6"><img src="#" alt="example-image-credit"></div>
-				</div>
-				<div class="row">
-					<div class="col-md-6"><img src="#" alt="example-image-credit"></div>
-					<div class="col-md-6"><img src="#" alt="example-image-credit"></div>					
+				  <div class="form-check col-md-6">
+				    <label class="form-check-label">
+				      <input type="radio" name="type_pay" class="form-check-input">
+				      <img src="{{asset('img/tarjetas-credito-logos.png')}}" class="img-fluid" style="height:50px" alt="">
+				    </label>
+				  </div>
+				  <div class="form-check col-md-6">
+				    <label class="form-check-label">
+				      <input type="radio" name="type_pay" class="form-check-input">
+				      <img src="{{asset('img/paypal.png')}}" class="img-fluid"  style="height:50px" alt="">
+				    </label>
+				  </div>				  
 				</div>
 			</div>
 		</div>
@@ -180,17 +186,31 @@
 					<label for="#">Name on Credit Card</label>
 					<input type="text" name="name-credit" class="form-control">
 					<label for="#">Expiration Date <span class="require">*</span></label>
-					<select name="" id="" class="form-control">
-						<option value="">Selected Date</option>
-					</select>
-					<select name="" id="" class="form-control">
-						<option value="">Selected Month</option>
-					</select>
+					<div class="row">
+					<div class="col-12">
+						<input type="text" id="datepicker" class="form-control">					
+					</div>
+					</div>
 					<br>
+					<div class="row">
+						<div class="col-md-6">
 					<label for="#">Credit Card Number <span class="require">*</span></label>
 					<input type="text" name="name-credit" class="form-control">
-					<label for="#">Cw2<span class="require">*</span></label>
-					<input type="text" name="name-credit" class="form-control">
+						</div>
+						<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="exampleInputEmail1" class="bmd-label-floating">Cw2</label>
+						    <input type="email" class="form-control" id="exampleInputEmail1">
+						    <span class="bmd-help">Codigo de Seguridad ubicado en el posterior de su tarjeta de Credito</span>
+						  </div>
+						</div>
+					</div>
+					<div class="form-check col-md-6">
+					    <label class="form-check-label">
+					      <input type="radio" class="form-check-input">
+					  	Aproved Credit
+					    </label>
+					  </div>
 				</div>
 				<div class="col-4"></div>
 			</div>

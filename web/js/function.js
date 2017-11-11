@@ -1,4 +1,11 @@
   $( function() {
     $( "#accordion" ).accordion();
   } );
-  $(document).ready(function() { $('body').bootstrapMaterialDesign(); })
+    $( function() {
+    $( "#datepicker" ).datepicker({
+    	minDate: "-1D",
+      changeMonth: true,
+      changeYear: true    	
+    });
+  } );
+  $(document).ready(function() { $('body').bootstrapMaterialDesign(); });

@@ -134,6 +134,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', end
 	background-color: #ff6ea2;
 	border:1px solid #ff6ea2;
 }
+.ui-datepicker, .ui-datepicker table{
+	background-color: #ff6ea2; 
+}
+.ui-datepicker .ui-datepicker-header{
+		background: #ff6ea2;
+background: -moz-linear-gradient(top, #ff6ea2 0%, #ef017c 100%);
+background: -webkit-linear-gradient(top, #ff6ea2 0%,#ef017c 100%);
+background: linear-gradient(to bottom, #ff6ea2 0%,#ef017c 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6ea2', endColorstr='#ef017c',GradientType=0 );
+color: white;
+}
+.ui-datepicker-month,.ui-datepicker-year{
+	padding: 5px;
+	border-radius: 10px
+}
+
+#form{
+	padding: 15px 25px;
+}
+
+/* Diseño responsive de la ultima versiones de Bootstrap 3
+*
+*/
 .hidden-xs-up {
   display: none !important;
 }

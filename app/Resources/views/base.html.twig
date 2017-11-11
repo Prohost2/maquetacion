@@ -8,11 +8,12 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
         <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
         <link rel="stylesheet" href="{{asset('css/style.css')}}">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     </head>
     <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="{{asset('img/amalia_jewelry_logo.png')}}" class="img-fluid" alt=""></a>
+  <a class="navbar-brand" href="#"><img src="{{asset('img/logo_oval.jpg')}}" class="img-fluid" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -47,14 +48,15 @@
   </div>
 </nav>
         {% block body %}{% endblock %}
+        {% block javascripts %}
         <script src="{{asset('js/Jquery.js')}}"></script>
         <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" ></script>
         <script src="{{asset('js/bootstrap.js')}}"></script>
-            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-          <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>    
-        <script src="{{asset('js/function.js')}}"></script>
-        {% block javascripts %}
-            <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>    
+        <script src="{{asset('js/function.js')}}"></script> 
+        <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });
+        </script>
         {% endblock %}
 <p style="background-color: #ccc; padding: 2px"></p>
 <footer>
@@ -82,6 +84,11 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#"><img src="" alt="face"><img src="" alt="twitter"><img src="" alt="instagram"></a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+                  <button class="btn btn-raised btn-pink"><svg style="color:white !important" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 48 48"><path d="M24 34c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm12-18h-2v-4c0-5.52-4.48-10-10-10S14 6.48 14 12h3.8c0-3.42 2.78-6.2 6.2-6.2 3.42 0 6.2 2.78 6.2 6.2v4H12c-2.21 0-4 1.79-4 4v20c0 2.21 1.79 4 4 4h24c2.21 0 4-1.79 4-4V20c0-2.21-1.79-4-4-4zm0 24H12V20h24v20z"/></svg> LOGIN</button>
+        </a>
       </li>
     </ul>
 </footer>
