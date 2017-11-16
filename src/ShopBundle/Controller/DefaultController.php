@@ -22,4 +22,12 @@ class DefaultController extends Controller
     {
         return $this->render('ShopBundle:Default:search_advance.html.twig');
     }
+    public function contactAction()
+    {
+        return $this->render('ShopBundle:Default:contact.html.twig');
+    }
+    public function loginAction()
+    {
+        return $this->render('ShopBundle:Default:contact.html.twig');
+    }
 }

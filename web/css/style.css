@@ -78,23 +78,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', end
 .carousel-item{
 	max-height: 100vh;
 }
+.price{
+	background-color: #ff6ea2;
+	padding: 5px;
+	border-radius: 15px;
+	color: white;
+}
 #earrings{
 	background-image: url(../img/EARRINGS.jpg);
 	background-size: cover;
 	padding-top: 60px;
-	color: white
+	color: white;
+
 }
 #necklates{
 	background-image: url(../img/necklaces.jpg);
 	background-size: cover;
 	padding-top: 60px;
-	color: white
+	color: white;
+
+}
+#necklates:hover{
+	background-image: url(../img/necklaces.jpg);
+	padding-top: 60px;
+	color: white;
+
 }
 #bracelets{
 	background-image: url(../img/bracelets.jpg);
 	background-size: cover;
 	padding-top: 60px;
-	color: white
+	color: white;
+
 }
 
 #bracelets button{
@@ -112,6 +127,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', end
 	background-color: #ff6ae2;
 	border:1px solid #ff6ae2;
 }
+#bracelets button:hover{
+	color: white;
+	background-color: #ef0675;
+	border:1px solid #ef0675;
+	box-shadow: 5px 5px  white;
+}
+#necklates button:hover{
+	color: white;
+		background-color: #ff00a2;
+	border:1px solid #ff00a2;
+		box-shadow: 5px 5px  white;
+	}
+#earrings button:hover{
+	color: white;
+	background-color: #ff6ae2;
+	border:1px solid #ff6ae2;
+		box-shadow: 5px 5px  white;
+	}
 #follow{
 	background-image: url(../img/background-bi.jpg);
 	background-size: cover;

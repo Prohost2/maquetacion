@@ -33,3 +33,11 @@ shop_confirm_payments:
 shop_searchAdvance:
     path:     /searchAdvance
     defaults: { _controller: ShopBundle:Default:searchAdvance }
+
+shop_contact:
+    path:     /contact
+    defaults: { _controller: ShopBundle:Default:contact }
+
+shop_login:
+    path:     /login
+    defaults: { _controller: ShopBundle:Default:login }

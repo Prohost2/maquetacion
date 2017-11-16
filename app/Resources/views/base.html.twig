@@ -27,13 +27,13 @@
         <a class="nav-link" href="#">NEW IN</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{path("shop_category")}}">CATTEGORY</a>
+        <a class="nav-link" href="{{path("shop_category")}}">CATEGORY</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">BOUTIQUE</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">CONTACT</a>
+        <a class="nav-link" href="{{path("shop_contact")}}">CONTACT</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{{path('shop_sale')}}">SALE</a>
@@ -42,7 +42,7 @@
         <a class="nav-link" href="#">FAX</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    <form class="form-inline my-2 my-lg-0" action="{{path('shop_login')}}">
         <button class="btn btn-raised btn-pink"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48"><path d="M24 34c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm12-18h-2v-4c0-5.52-4.48-10-10-10S14 6.48 14 12h3.8c0-3.42 2.78-6.2 6.2-6.2 3.42 0 6.2 2.78 6.2 6.2v4H12c-2.21 0-4 1.79-4 4v20c0 2.21 1.79 4 4 4h24c2.21 0 4-1.79 4-4V20c0-2.21-1.79-4-4-4zm0 24H12V20h24v20z"/></svg> LOGIN</button>
     </form>
   </div>
@@ -74,7 +74,7 @@
         <a class="nav-link" href="#">BOUTIQUE</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">CONTANCT</a>
+        <a class="nav-link" href="{{path("shop_contact")}}">CONTACT</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{{path('shop_sale')}}">SALE</a>
@@ -89,7 +89,7 @@
           <a href=""><img src="{{asset('img/pint.png')}}" class="img-fluid" style="width:35px" alt="Pint int"></a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">
+        <a href="{{path('shop_login')}}" class="nav-link">
                   <button class="btn btn-raised btn-pink"><svg style="color:white !important" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 48 48"><path d="M24 34c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm12-18h-2v-4c0-5.52-4.48-10-10-10S14 6.48 14 12h3.8c0-3.42 2.78-6.2 6.2-6.2 3.42 0 6.2 2.78 6.2 6.2v4H12c-2.21 0-4 1.79-4 4v20c0 2.21 1.79 4 4 4h24c2.21 0 4-1.79 4-4V20c0-2.21-1.79-4-4-4zm0 24H12V20h24v20z"/></svg> LOGIN</button>
         </a>
       </li>
