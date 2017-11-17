@@ -28,6 +28,6 @@ class DefaultController extends Controller
     }
     public function loginAction()
     {
-        return $this->render('ShopBundle:Default:contact.html.twig');
+        return $this->render('ShopBundle:Default:login.html.twig');
     }
 }
