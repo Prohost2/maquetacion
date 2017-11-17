@@ -104,6 +104,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', end
 	color: white;
 
 }
+#charmes{
+	background-image: url(../img/necklaces.jpg);
+	background-size: cover;
+	padding-top: 60px;
+	color: white;
+
+}
+#charmes:hover{
+	background-image: url(../img/charmes-category.jpg);
+	padding-top: 60px;
+	color: white;
+
+}
 #bracelets{
 	background-image: url(../img/bracelets.jpg);
 	background-size: cover;
