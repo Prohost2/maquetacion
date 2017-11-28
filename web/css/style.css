@@ -98,6 +98,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', end
 	color: white;
 
 }
+#jewerly{
+	background-image: url(../img/jewerly.jpg);
+	background-size: cover;
+	padding-top: 60px;
+	color: white;
+
+}
+#silver{
+	background-image: url(../img/silver.jpeg);
+	background-size: cover;
+	padding-top: 60px;
+	color: white;
+}
 #necklates:hover{
 	background-image: url(../img/necklaces.jpg);
 	padding-top: 60px;
@@ -111,7 +124,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', end
 	color: white;
 
 }
-#charmes:hover{
+#charmes:hove{
 	background-image: url(../img/charmes-category.jpg);
 	padding-top: 60px;
 	color: white;
