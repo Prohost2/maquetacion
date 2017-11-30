@@ -14,6 +14,10 @@ class DefaultController extends Controller
     {
         return $this->render('ShopBundle:Category:index.html.twig');
     }
+    public function category_landingAction()
+    {
+        return $this->render('ShopBundle:Category:landing.html.twig');
+    }
     public function saleAction()
     {
         return $this->render('ShopBundle:Default:sale.html.twig');

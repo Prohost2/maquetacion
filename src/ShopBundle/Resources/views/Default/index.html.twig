@@ -28,14 +28,12 @@
 	</div>	
 </header>
 <section class="container-fluid">
-	<div class="row justify-content-center hidden-md-down">
-			<a href="{{path('shop_category')}}"><button class="btn btn-outline-danger btn-lg" style="margin: 20px 0px">CATEGORIES</button></a>
-	</div>
-	<div class="row">
-		<div class="col-6 hidden-lg-up">
-			<a href="{{path('shop_category')}}"><button class="btn btn-outline-danger ">CATEGORIES</button></a>			
+			<br><br>
+	<div class="row ">
+		<div class="col-12 col-md-6 ml-md-auto">
+			<a href="{{path('shop_category')}}"><button class="btn btn-outline-danger btn-lg">CATEGORIES</button></a>			
 		</div>
-		<div class="col-6 hidden-lg-up">
+		<div class="col-12 col-md-4 ml-md-auto">
 			<div class="dropdown">
 			  <button class="btn btn-pink btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			   	Advance Search
@@ -59,7 +57,8 @@
 			  </div>
 			</div>
 		</div>
-		<div class="col-12 col-md-9">
+		<div class="col-12 col-md-12">
+			<br><br>
 			<div class="row">
 				<div class="col-md-3" style="margin-bottom: 20px" >
 					<a href="{{path('shop_single')}}">
@@ -210,22 +209,6 @@
 					</div>
 				</div>			
 			</div>			
-		</div>
-		<div class="col-md-3 hidden-md-down">
-			<form action="" id="form" class="card ">
-				<p>Advance Search</p>
-				<label for="">Keywords<input type="text" class="form-control"></label><br>
-				<select name="" id="" class="form-control">
-					<option value="">Category</option>
-				</select><br>
-				<select name="" id="" class="form-control">
-					<option value="">Sub Category</option>
-				</select><br>
-				<label for=""><input type="radio" name="filter"> Under $150</label><br>
-				<label for=""><input type="radio" name="filter"> $150 to $250</label><br>
-				<label for=""><input type="radio" name="filter"> Over 250$</label><br>
-				<a href="{{path('shop_searchAdvance')}}" class="btn btn-block btn-pink">Submit</a>
-			</form>
 		</div>
 	</div>
 </section>

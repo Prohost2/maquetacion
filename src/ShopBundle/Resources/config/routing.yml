@@ -6,6 +6,10 @@ shop_category:
     path:     /category
     defaults: { _controller: ShopBundle:Default:category }
 
+shop_category_landing:
+    path:     /category_landing
+    defaults: { _controller: ShopBundle:Default:category_landing }
+
 shop_sale:
     path:     /sale
     defaults: { _controller: ShopBundle:Default:sale }
