@@ -30,18 +30,22 @@
 <section class="container-fluid">
 			<br><br>
 	<div class="row ">
-		<div class="col-12 col-md-6 ml-md-auto">
-			<a href="{{path('shop_category')}}"><button class="btn btn-outline-danger btn-lg">CATEGORIES</button></a>			
-		</div>
-		<div class="col-12 col-md-4 ml-md-auto">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a href="{{path('shop_category')}}"><button class="btn btn-outline-danger btn-lg">CATEGORIES</button></a>
+      </li>
+    </ul>
+    <div class="form-inline my-2 my-lg-0">
 			<div class="dropdown">
 			  <button class="btn btn-pink btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			   	Advance Search
 			  </button>
 			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 			    <div class="dropdown-item" href="#">
-					<form action="" id="form" class="card">
-						<label for="">Keywords<input type="text" class="form-control"></label><br>
+					<form id="form" class="card">
+						<label for="">Keywords</label><br>
+						<input type="text" class="form-control">
 						<select name="" id="" class="form-control">
 							<option value="">Category</option>
 						</select><br>
@@ -56,7 +60,8 @@
 			    </div>
 			  </div>
 			</div>
-		</div>
+    </div>
+  </div>
 		<div class="col-12 col-md-12">
 			<br><br>
 			<div class="row">
