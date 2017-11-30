@@ -27,13 +27,16 @@
 	  </a>
 	</div>	
 </header>
-<section class="container-fluid">
-			<br><br>
-	<div class="row ">
+<section class="container">
+	<nav class=" navbar-expand-lg ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a href="{{path('shop_category')}}"><button class="btn btn-outline-danger btn-lg">CATEGORIES</button></a>
+        <a class="nav-link" href="{{path('shop_category')}}"><button class="btn btn-outline-danger btn-lg" style="margin: 20px 0px">CATEGORY</button></a>
       </li>
     </ul>
     <div class="form-inline my-2 my-lg-0">
@@ -62,6 +65,12 @@
 			</div>
     </div>
   </div>
+</nav>
+<br>
+</section>
+<section class="container-fluid">
+			<br><br>
+	<div class="row ">
 		<div class="col-12 col-md-12">
 			<br><br>
 			<div class="row">
