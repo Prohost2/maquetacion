@@ -165,7 +165,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', end
 	border:1px solid #ff00a2;
 		box-shadow: 5px 5px  white;
 	}
-#earrings button:hover{
+#earrings button:hover , #silver button:hover , #charmes button:hover ,#jewerly button:hover{
 	color: white;
 	background-color: #ff6ae2;
 	border:1px solid #ff6ae2;
