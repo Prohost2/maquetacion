@@ -40,7 +40,29 @@
       </li>
     </ul>
     <div class="form-inline my-2 my-lg-0">
-
+      <div class="dropdown" style="margin-left:20px">
+        <button class="btn btn-pink btn-lg  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Advance Search
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <div class="dropdown-item" href="#">
+          <form id="form" class="card">
+            <label for="">Keywords</label><br>
+            <input type="text" class="form-control">
+            <select name="" id="" class="form-control">
+              <option value="">Category</option>
+            </select><br>
+            <select name="" id="" class="form-control">
+              <option value="">Sub Category</option>
+            </select><br>
+            <label for=""><input type="radio" name="filter"> Under $150</label><br>
+            <label for=""><input type="radio" name="filter"> $150 to $250</label><br>
+            <label for=""><input type="radio" name="filter"> Over 250$</label><br>
+            <a href="{{path('shop_searchAdvance')}}" class="btn btn-block btn-pink">Submit</a>
+          </form>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </nav>
