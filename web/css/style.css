@@ -32,6 +32,9 @@ a{
 	padding-bottom: 150px;
 	color: white;
 }
+#dropdownMenuButton{
+	width: 300px;
+}
 
 #discount-2 button{
 	border:1px solid white;
@@ -211,6 +214,7 @@ color: white;
 
 #form{
 	padding: 15px 25px;
+	width: 100%;
 }
 
 /* Diseño responsive de la ultima versiones de Bootstrap 3
