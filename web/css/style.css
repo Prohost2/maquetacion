@@ -196,6 +196,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', end
 	background-color: #ff6ea2;
 	border:1px solid #ff6ea2;
 }
+.dropdown-menu{
+	width: 20.35rem;
+}
 .ui-datepicker, .ui-datepicker table{
 	background-color: #ff6ea2; 
 }
